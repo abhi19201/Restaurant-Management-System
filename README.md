@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/badge/GUI%20toolkit-JavaFX-blue">  
 <img src="https://img.shields.io/badge/DB-MongoDB-yellow">
 
-##Description:
+## Description:
 
 This Project can be used by Restaurants to increase their reach to customers through online presence.
 
@@ -26,5 +26,43 @@ What Project provides to Manager:
 Note: Requires Java jdk v-11 or above installed.
 
 ***
-
+## Use Cases
 ![Use Cases](/Documentation/Use%20Case.png)
+
+## System Diagram
+![System](/Documentation/System.png)
+
+---
+
+## Screenshots
+
+### Manager's Interface
+
+#### Manager Login
+![Login](/Documentation/screenshots/Manager%20Login.jpg)
+
+#### Menu Card
+![Menu](/Documentation/screenshots/Edit%20Menu.jpg)
+
+#### Bookings
+![Bookings](/Documentation/screenshots/View%20and%20accept%20bookings.jpg)
+
+---
+
+### Customer's Interface
+
+#### Login Or Register
+![Login](/Documentation/screenshots/Customer%20Login%20or%20Register.jpg)
+
+#### Book Table
+![Book](/Documentation/screenshots/Book%20Table.jpg)
+
+#### View Menu Card
+![Menu](/Documentation/screenshots/View%20Menu.jpg)
+
+#### Contact Restaurant
+![Contact](/Documentation/screenshots/Contact%20Restaurant.jpg)
+
+## Scope of Improvement
+- Adding OAuth for Customers to register.
+- Asking Customer to add their mobile number and verifying it by sending OTP.
