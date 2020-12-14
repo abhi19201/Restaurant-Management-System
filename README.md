@@ -36,6 +36,10 @@ Note: Requires Java jdk v-11 or above installed.
 
 ## Screenshots
 
+### Home Screen
+![Home](/Documentation/screenshots/Home%20Screen.jpg)
+
+
 ### Manager's Interface
 
 #### Manager Login
