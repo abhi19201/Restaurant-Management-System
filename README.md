@@ -8,7 +8,7 @@
 
 ## Description:
 
-This Project provides an Restaurant Management System with simplistic GUI and makes it easy for both customers and restaurant manager to handle their tasks with ease. It can be used by Restaurants to increase their reach to customers through online presence.
+This Project provides a Restaurant Management System with simplistic GUI and makes it easy for both customers and restaurant managers to handle their tasks with ease. It can be used by Restaurants to increase their reach to customers through online presence.
 
 What Project provides to customers:
 - Safe and secure register and login to customer as the password stored in the restaurant's database will be hashed using MD5.
