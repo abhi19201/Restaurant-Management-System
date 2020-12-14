@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/badge/GUI%20toolkit-JavaFX-blue">  
 <img src="https://img.shields.io/badge/DB-MongoDB-yellow">
 
-##Description:
+#Description:
 
 This Project can be used by Restaurants to increase their reach to customers through online presence.
 
