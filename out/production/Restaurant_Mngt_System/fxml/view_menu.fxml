@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.view_menu">
+   <children>
+      <Label layoutX="426.0" layoutY="57.0" text="Customer's Window">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="54.0" layoutY="57.0" mnemonicParsing="false" onAction="#customer" text="Back to Book Table" />
+      <Label layoutX="483.0" layoutY="136.0" text="Restaurant's Menu">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TableView fx:id="menuTable" layoutX="202.0" layoutY="196.0" prefHeight="409.0" prefWidth="796.0">
+        <columns>
+          <TableColumn fx:id="menuTableId" editable="false" prefWidth="74.0" text="Dish Id" />
+          <TableColumn fx:id="menuTableDish" editable="false" minWidth="0.0" prefWidth="244.0" text="Dish Name" />
+            <TableColumn fx:id="menuTableDescription" editable="false" prefWidth="325.0" text="Discription" />
+            <TableColumn fx:id="menuTablePrice" editable="false" prefWidth="152.0" text="Price" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>

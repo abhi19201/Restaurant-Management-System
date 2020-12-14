@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Contact">
+   <children>
+      <Button layoutX="105.0" layoutY="75.0" mnemonicParsing="false" onAction="#Customer" text="Back to Book Table" />
+      <Label layoutX="426.0" layoutY="44.0" text="Customer's Window">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="427.0" layoutY="133.0" text="Restaurant Contact Details ">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="551.0" layoutY="292.0" text="Click me">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Hyperlink>
+      <Label layoutX="427.0" layoutY="222.0" prefHeight="51.0" prefWidth="348.0" text="Phone Number :  +91-772-0989.........">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="427.0" layoutY="287.0" prefHeight="44.0" prefWidth="129.0" text="Website : ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

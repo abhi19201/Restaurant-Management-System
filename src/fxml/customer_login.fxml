@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="scene" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.customer_login">
+    <Label layoutX="448.0" layoutY="49.0" prefHeight="64.0" prefWidth="328.0" text=" Verify Yourself:">
+        <font>
+            <Font size="40.0" />
+        </font>
+    </Label>
+    <Label layoutX="114.0" layoutY="277.0" text="Username:">
+        <font>
+            <Font size="28.0" />
+        </font>
+    </Label>
+    <Label layoutX="114.0" layoutY="356.0" text="Password:" textAlignment="CENTER">
+        <font>
+            <Font size="28.0" />
+        </font>
+    </Label>
+    <PasswordField fx:id="password" alignment="CENTER" layoutX="297.0" layoutY="350.0" prefHeight="48.0" prefWidth="218.0">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </PasswordField>
+    <TextField fx:id="username" alignment="CENTER" layoutX="297.0" layoutY="271.0" prefHeight="48.0" prefWidth="218.0">
+        <font>
+            <Font size="20.0" />
+        </font>
+    </TextField>
+    <Button layoutX="243.0" layoutY="450.0" mnemonicParsing="false" onAction="#submit" text="Submit" textAlignment="CENTER">
+        <font>
+            <Font name="System Bold" size="25.0" />
+        </font>
+    </Button>
+    <Label layoutX="258.0" layoutY="147.0" prefHeight="56.0" prefWidth="105.0" text="Login">
+        <font>
+            <Font size="35.0" />
+        </font>
+    </Label>
+    <Separator layoutX="669.0" layoutY="144.0" orientation="VERTICAL" prefHeight="633.0" prefWidth="15.0" />
+    <Label layoutX="864.0" layoutY="153.0" text="Register">
+        <font>
+            <Font size="35.0" />
+        </font>
+    </Label>
+    <Label layoutX="753.0" layoutY="277.0" text="Name:">
+        <font>
+            <Font size="28.0" />
+        </font>
+    </Label>
+    <Label layoutX="753.0" layoutY="339.0" text="Username:">
+        <font>
+            <Font size="28.0" />
+        </font>
+    </Label>
+    <Label layoutX="753.0" layoutY="400.0" text="Password:">
+        <font>
+            <Font size="28.0" />
+        </font>
+    </Label>
+    <Label layoutX="753.0" layoutY="461.0" text="Confirm : ">
+        <font>
+            <Font size="28.0" />
+        </font>
+    </Label>
+    <Button layoutX="870.0" layoutY="548.0" mnemonicParsing="false" onAction="#register" prefHeight="44.0" prefWidth="180.0" text="Register" textAlignment="CENTER">
+        <font>
+            <Font name="System Bold" size="28.0" />
+        </font>
+    </Button>
+    <TextField fx:id="Rusername" layoutX="919.0" layoutY="332.0" prefHeight="48.0" prefWidth="218.0">
+      <font>
+         <Font size="20.0" />
+      </font></TextField>
+    <TextField fx:id="Rname" layoutX="919.0" layoutY="271.0" prefHeight="48.0" prefWidth="218.0">
+      <font>
+         <Font size="20.0" />
+      </font></TextField>
+   <PasswordField fx:id="Rpassword2" layoutX="919.0" layoutY="455.0" prefHeight="48.0" prefWidth="218.0">
+      <font>
+         <Font size="14.0" />
+      </font></PasswordField>
+   <PasswordField fx:id="Rpassword1" layoutX="919.0" layoutY="394.0" prefHeight="48.0" prefWidth="218.0">
+      <font>
+         <Font size="14.0" />
+      </font></PasswordField>
+   <TextField fx:id="success" alignment="CENTER" editable="false" layoutX="830.0" layoutY="623.0" prefHeight="55.0" prefWidth="271.0" promptText="Registration Status">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </TextField>
+</AnchorPane>

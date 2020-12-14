@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="scene" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Screen1">
+   <children>
+      <Button layoutX="229.0" layoutY="353.0" maxHeight="90.0" maxWidth="260.0" mnemonicParsing="false" onMouseClicked="#manager_login_click" prefHeight="90.0" prefWidth="260.0" text="Manager" underline="true" AnchorPane.bottomAnchor="352.0" AnchorPane.leftAnchor="229.0" AnchorPane.topAnchor="353.0">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="775.0" layoutY="353.0" maxHeight="95.0" maxWidth="294.0" mnemonicParsing="false" onMouseClicked="#customer_click" prefHeight="95.0" prefWidth="260.0" text="Customer" textAlignment="CENTER" underline="true" AnchorPane.bottomAnchor="352.0" AnchorPane.rightAnchor="230.0" AnchorPane.topAnchor="353.0">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Button>
+      <CheckBox layoutX="935.0" layoutY="39.0" mnemonicParsing="false" onAction="#click_mode" prefHeight="48.0" prefWidth="196.0" selected="true" text="Dark Mode">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>

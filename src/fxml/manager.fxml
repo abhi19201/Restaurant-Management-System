@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.manager">
+    <children>
+        <Label layoutX="434.0" layoutY="53.0" text="Manager's Window">
+            <font>
+                <Font size="35.0" />
+            </font>
+        </Label>
+        <MenuButton layoutX="150.0" layoutY="150.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="143.0" text="Options">
+            <items>
+                <MenuItem mnemonicParsing="false" onAction="#menu" text="Restaurant Menu" />
+                <MenuItem mnemonicParsing="false" onAction="#view_bookings" text="View Bookings" />
+            </items>
+            <font>
+                <Font size="20.0" />
+            </font>
+        </MenuButton>
+        <TableView fx:id="menuTable" layoutX="325.0" layoutY="150.0" prefHeight="338.0" prefWidth="749.0">
+            <columns>
+                <TableColumn fx:id="menuTableId" editable="false" prefWidth="67.0" text="Dish Id" />
+                <TableColumn fx:id="menuTableDish" editable="false" minWidth="0.0" prefWidth="159.0" text="Dish Name" />
+                <TableColumn fx:id="menuTableDescription" editable="false" prefWidth="358.0" text="Description" />
+                <TableColumn fx:id="menuTablePrice" editable="false" prefWidth="164.0" text="Price" />
+            </columns>
+        </TableView>
+        <TextField fx:id="name" alignment="CENTER" layoutX="325.0" layoutY="541.0" prefHeight="56.0" prefWidth="303.0" promptText="Dish Name">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="price" alignment="CENTER" layoutX="325.0" layoutY="607.0" prefHeight="56.0" prefWidth="303.0" promptText="Dish Price">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <Button layoutX="554.0" layoutY="690.0" mnemonicParsing="false" onAction="#add" prefHeight="56.0" prefWidth="169.0" text="Add Item">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="1032.0" layoutY="699.0" mnemonicParsing="false" onAction="#logout" prefHeight="37.0" prefWidth="108.0" text="Logout">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <TextArea fx:id="description" layoutX="650.0" layoutY="542.0" prefHeight="120.0" prefWidth="303.0" promptText="Dish Description" wrapText="true">
+            <font>
+                <Font size="18.0" />
+            </font></TextArea>
+        <TextField fx:id="removeId" alignment="CENTER" layoutX="150.0" layoutY="357.0" prefHeight="56.0" prefWidth="143.0" promptText="Dish Id">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Button layoutX="150.0" layoutY="432.0" mnemonicParsing="false" onAction="#removeDish" prefHeight="56.0" prefWidth="143.0" text="Remove Dish">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

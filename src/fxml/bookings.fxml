@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.bookings">
+   <children>
+      <Label layoutX="434.0" layoutY="54.0" text="Manager's Window">
+         <font>
+            <Font size="35.0" />
+         </font></Label>
+      <Button layoutX="66.0" layoutY="63.0" mnemonicParsing="false" onAction="#manager" text="Back to Restaurant Menu" />
+      <TableView fx:id="restaurantTable" layoutX="130.0" layoutY="205.0" prefHeight="390.0" prefWidth="882.0">
+        <columns>
+          <TableColumn fx:id="Id" editable="false" prefWidth="70.0" text="Id" />
+          <TableColumn fx:id="name" editable="false" prefWidth="233.0" text="Name" />
+            <TableColumn fx:id="date" editable="false" prefWidth="141.0" text="Date" />
+            <TableColumn fx:id="tableNumber" editable="false" prefWidth="130.0" text="Table Number" />
+            <TableColumn fx:id="contact" editable="false" prefWidth="176.0" text="Contact Details" />
+            <TableColumn fx:id="status" editable="false" prefWidth="131.0" text="Status" />
+        </columns>
+      </TableView>
+      <Label layoutX="509.0" layoutY="132.0" text="Bookings">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="accept_id" alignment="CENTER" layoutX="167.0" layoutY="633.0" prefHeight="44.0" prefWidth="209.0" promptText="Enter Order Id">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <Button layoutX="195.0" layoutY="689.0" mnemonicParsing="false" onAction="#accepted" prefHeight="44.0" prefWidth="153.0" text="Mark as Accepted">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TextField fx:id="tables" alignment="CENTER" layoutX="467.0" layoutY="633.0" prefHeight="44.0" prefWidth="209.0" promptText="Number of Tables">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="495.0" layoutY="689.0" mnemonicParsing="false" onAction="#editTables" prefHeight="51.0" prefWidth="153.0" text="Edit number of tables" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <TextField fx:id="deleteId" alignment="CENTER" layoutX="766.0" layoutY="633.0" prefHeight="44.0" prefWidth="209.0" promptText="Enter Order Id">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="794.0" layoutY="689.0" mnemonicParsing="false" onAction="#completed" prefHeight="44.0" prefWidth="162.0" text="Mark as Completed">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

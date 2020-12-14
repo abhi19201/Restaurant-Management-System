@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="scene" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.manager_login">
+   <children>
+      <Label layoutX="344.0" layoutY="123.0" prefHeight="64.0" prefWidth="629.0" text=" Verify Yourself as a Manager:">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="291.0" text="Username:">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="371.0" text="Password:" textAlignment="CENTER">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password" alignment="CENTER" layoutX="470.0" layoutY="366.0" prefHeight="54.0" prefWidth="376.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </PasswordField>
+      <TextField fx:id="username" alignment="CENTER" layoutX="470.0" layoutY="285.0" prefHeight="56.0" prefWidth="376.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <Button layoutX="470.0" layoutY="482.0" mnemonicParsing="false" onAction="#submit" text="Submit" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
