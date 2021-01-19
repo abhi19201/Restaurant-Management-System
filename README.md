@@ -2,9 +2,10 @@
 # Restaurant Management System
 
 ---
-
+<p align="center">
 <img src="https://img.shields.io/badge/GUI%20toolkit-JavaFX-blue">  
 <img src="https://img.shields.io/badge/DB-MongoDB-yellow">
+ </p>
 
 ## Description:
 
